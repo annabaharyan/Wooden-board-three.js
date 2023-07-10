@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>M&D task 2</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .input-container {
+        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        flex-wrap: wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="input-container">
+      <input type="text" placeholder="set width" id="width" value="2" />
+      <input type="text" placeholder="set length" id="length" value="8" />
+      <button id="btn-board-creator">Create board</button>
+      <p id="err-msg" style="color: red"></p>
+    </div>
+    
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
